@@ -1,0 +1,25 @@
+nav {
+  display: flex;
+  align-items: center;
+  width: 70%;
+  margin: 0 auto;
+}
+
+.dropdown:hover .dropdown-menu {
+  display: block;
+  margin-top: 0; /* remove the gap so it doesn't close */
+}
+
+nav li.nav-item .dropdown-menu {
+  border-top: 2px solid #0c63ff;
+  float: left;
+}
+
+div.footer-logos {
+  padding: 0 5rem;
+}
+
+i.fa {
+  font-size: 24px;
+  padding: 10px;
+}
