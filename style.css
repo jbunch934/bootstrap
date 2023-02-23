@@ -1,0 +1,19 @@
+h1 {
+    border: 10px;
+    margin: auto;
+    padding-left: 100%;
+}
+
+.navbar{
+    text-align: right;
+}
+.icon-bar{
+    color: black;
+}
+
+a.first{
+    background-color: transparent;
+    padding: 16px;
+    text-align: right;
+}
+
