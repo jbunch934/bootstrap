@@ -30,6 +30,7 @@ section#banner {
   float: right;
 }
 
+/*
 button.banner-button-left {
   color: black !important;
 }
@@ -38,8 +39,32 @@ button.banner-button-right {
   color: white;
   border: 1px solid white;
 }
+*/
+
+button.banner-button-left {
+  color: white;
+  border: 1px solid white;
+}
 
 section#features {
+  background-color: white;
+  padding: 4rem 10%;
+  color: #0c63ff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.mt-n1 {
+  margin-top: -1rem !important;
+}
+
+.mt-n7 {
+  margin-top: -7rem !important;
+}
+
+section#offer {
   background-color: #0c63ff;
   padding: 4rem 10%;
   color: white;
@@ -47,3 +72,5 @@ section#features {
   align-items: center;
   justify-content: center;
 }
+
+
