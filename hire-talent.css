@@ -66,11 +66,9 @@ section#features {
 
 section#offer {
   background-color: #0c63ff;
-  padding: 4rem 10%;
   color: white;
-  display: flex;
+  text-align: center;
   align-items: center;
-  justify-content: center;
 }
 
-
+ 
