@@ -38,3 +38,56 @@ button.banner-button-right {
   color: white;
   border: 1px solid white;
 }
+
+#classes > .container > .container-fluid {
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+  justify-content: center;
+}
+
+.learning-text {
+  font-size: 20px;
+  color: rgb(135, 144, 158)
+}
+
+#classes .card-body {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+}
+
+#classes a.btn {
+  border-radius: 100px;
+}
+
+#mid-banner {
+  background-color: #0c63ff;
+  color: white;
+  text-align: center;
+  align-items: center;
+}
+
+#process > .container {
+  text-align: center;
+}
+
+#thousands > div.row {
+  align-items: flex-end;
+  justify-content: center;
+}
+
+#thousands > div.row > div.cards {
+  /* box-shadow: rgba(119, 131, 143, 0.2) 0px 0px 30px 0px; */
+}
+
+.azanae, .bustard, .peyton {
+  position: absolute;
+  top: -53px;
+  border: 2px solid #0c63ff;
+  border-radius: 100%;
+}
+
+h2.people-text {
+  text-align: center;
+}
