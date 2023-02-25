@@ -71,4 +71,40 @@ section#offer {
   align-items: center;
 }
 
+
+section#clients{
+  background-color: white;
+  padding: 4rem 10%;
+  color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#clients .carousel-inner img {
+  width: 20%;
+  height: 10%;
+  float: left;
+  padding: 5px;
+}
+
+section#offer {
+  background-color: #0c63ff;
+  color: white;
+  text-align: center;
+  align-items: center;
+}
+
+.talentsits {
+  background-color: white;
+  color: black;
+  text-align: center;
+  align-items: center;
+  padding-top: 2em;
+}
+
+
+
+
+
  
