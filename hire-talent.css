@@ -101,6 +101,31 @@ section#offer {
   align-items: center;
 }
 
+section#contractorhire {
+  background-color: #0c63ff;
+  color: white;
+  text-align: center;
+  align-items: center;
+}
+
+#contractorhire .contractorhire-left {
+  width: 50%;
+  padding-top: 60px
+}
+
+.contractorhire-left h3 {
+  overflow: none;
+  white-space: nowrap;
+}
+
+.contractorhire-left p {
+  margin: 0;
+}
+
+#banner .contractorhire-right {
+  width: 50%;
+}
+
 .talentsits {
   background-color: white;
   color: black;
@@ -121,25 +146,7 @@ section#everyone {
   color:grey;
 }
 
-/*header style*/
-/*
-.header{
-  background-image: url('/images/backgroundimage.png');
-  background-attachment: fixed;
-  background-size: cover;
-  background-position: center;
- }
 
-
-.overlay{
-position: absolute;
-min-height: 100%;
-min-width: 100%;
-left: 0;
-top: 0;
-background: rgba(244, 244, 244, 0.79);
-}
-*/
 section#everyone .programs {
   /*
   background-image: url('/images/backgroundimage.png');
@@ -152,10 +159,7 @@ section#everyone .programs {
   padding-bottom: 5em;
   display: flex;
   justify-content: center;
-  align-items: center; 
-  /*
-  margin-top: 1em; 
-  */
+  align-items: center;   
   top: 0;
 }
 
