@@ -30,6 +30,12 @@ section#banner {
   float: right;
 }
 
+#banner #banner-right_img_section {
+  width: 80%;
+  float: right;
+}
+
+
 /*
 button.banner-button-left {
   color: black !important;
