@@ -113,7 +113,7 @@
     <section id="solutions">
     <div container-fluid>
     <div class="row">
-      <div class="col-3">
+      <div class="col-md-4">
         <!-- Tab navs -->
         <div
           class="nav flex-column nav-pills text-center"
@@ -122,56 +122,89 @@
           aria-orientation="vertical"
         >
           <a
-            class="nav-link active"
-            id="v-pills-home-tab"
+          class="nav-link active"
+          id="v-pills-retention-tab"
+          data-mdb-toggle="pill"
+          href="#v-pills-retention"
+          role="tab"
+          aria-controls="v-pills-retention"
+          aria-selected="true"
+          style="height: 100px;"
+          >Boost Employee Retention</a>
+          <a
+            class="nav-link"
+            id="v-pills-acquisition-tab"
             data-mdb-toggle="pill"
-            href="#v-pills-home"
+            href="#v-pills-acquisition"
             role="tab"
-            aria-controls="v-pills-home"
-            aria-selected="true"
+            aria-controls="v-pills-acquisition"
+            aria-selected="false"
+            style="height:100px;"
             >Talent Acquisition</a>
           <a
             class="nav-link"
-            id="v-pills-profile-tab"
+            id="v-pills-opportunity-tab"
             data-mdb-toggle="pill"
-            href="#v-pills-profile"
+            href="#v-pills-opportunity"
             role="tab"
-            aria-controls="v-pills-profile"
+            aria-controls="v-pills-opportunity"
             aria-selected="false"
-            >Economic Opportunity</a
-          >
+            style="height: 100px;"
+            >Economic Opportunity</a>
           <a
             class="nav-link"
-            id="v-pills-messages-tab"
+            id="v-pills-efficiency-tab"
             data-mdb-toggle="pill"
-            href="#v-pills-messages"
+            href="#v-pills-efficiency"
             role="tab"
-            aria-controls="v-pills-messages"
+            aria-controls="v-pills-efficiency"
             aria-selected="false"
-            >Costs Savings & Efficiency</a>
+            style="height:100px;"
+            >Costs Savings & Efficiency</a>  
         </div>
         <!-- Tab navs -->
       </div>
     
-      <div class="col-9">
+      <div class="col-md-8">
         <!-- Tab content -->
         <div class="tab-content" id="v-pills-tabContent">
+
           <div
-            class="tab-pane fade show active"
-            id="v-pills-home"
+          class="tab-pane fade show active"
+          id="v-pills-retention"
+          role="tabpanel"
+          aria-labelledby="v-pills-retention-tab"
+        >
+        <div class="container-fluid">
+          <div class="row">
+              <div class="col-md-4 content-justify-left">
+                <p class="text-left fs-4 font-weight-bold">Boost Employee Retention</p>
+                <p class="text-left fs-6">
+                  Offer ongoing education as a benefit to all employees, driving professional growth and employee retention.
+                </p>
+              </div>  
+              <div class="col-md-4">
+                <img src="images/cog first day phx.jpg" style="width:auto; height:auto" alt="...">
+              </div>            
+          </div>
+
+        </div>
+          <div
+            class="tab-pane fade"
+            id="v-pills-acquisition"
             role="tabpanel"
-            aria-labelledby="v-pills-home-tab"
+            aria-labelledby="v-pills-acquisition-tab"
           >
           <div class="container-fluid">
             <div class="row">
-                <div class="col-5 content-justify-left">
+                <div class="col-md-4 content-justify-left">
                   <p class="text-left fs-4 font-weight-bold">Talent Acquisition</p>
                   <p class="text-left fs-6">
                     We work within the long term visionary and strategic approach to drive business value by finding candidates with niche skills particular to our client's business with a focus on retention and quality of hire.
                   </p>
                 </div>  
-                <div class="col-3">
-                  <img src="images/cog first day phx.jpg" style="width:auto; height:auto" alt="...">
+                <div class="col-md-4">
+                  <img src="images/bg-sample.jpg" style="width:auto; height:auto" alt="...">
                 </div>            
             </div>
           </div>
@@ -179,19 +212,19 @@
           </div>
           <div
             class="tab-pane fade"
-            id="v-pills-profile"
+            id="v-pills-opportunity"
             role="tabpanel"
-            aria-labelledby="v-pills-profile-tab"
+            aria-labelledby="v-pills-opportunity-tab"
           >
           <div class="container-fluid">
             <div class="row">
-                <div class="col-5 content-justify-left">
+                <div class="col-md-4 content-justify-left">
                   <p class="text-left fs-4 font-weight-bold">Economic Opportunity</p>
                   <p class="text-left fs-6">
                       We continue to work with companies who want to be a part of the solution for greater economic opportunity in mid-sized and major metropolitan areas. This training model is proving to be a successful vehicle for corporate efforts within city-specific movements to increase economic opportunity for their residents.
                   </p>
                 </div>  
-                <div class="col-3">
+                <div class="col-md-4">
                   <img src="images/bg-sample.jpg" style="width:auto; height:auto" alt="...">
                 </div>            
             </div>
@@ -200,19 +233,19 @@
           </div>
           <div
             class="tab-pane fade"
-            id="v-pills-messages"
+            id="v-pills-efficiency"
             role="tabpanel"
-            aria-labelledby="v-pills-messages-tab"
+            aria-labelledby="v-pills-efficiency-tab"
           >
           <div class="container-fluid">
             <div class="row">
-                <div class="col-5 content-justify-left">
-                  <p class="text-left fs-4 font-weight-bold">Costs Savings & EfficiencyEconomic Opportunity</p>
+                <div class="col-md-4 content-justify-left">
+                  <p class="text-left fs-4 font-weight-bold">Costs Savings & Efficiency</p>
                   <p class="text-left fs-6">
                      Save money and time while reducing turnover, by building a team specific to your needs and investing in their success.
                   </p>
                 </div>  
-                <div class="col-3">
+                <div class="col-md-4">
                   <img src="images/bg-sample.jpg" style="width:auto; height:auto" alt="...">
                 </div>            
             </div>
