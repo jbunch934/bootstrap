@@ -205,6 +205,61 @@ section#everyone .programs {
     top: 35%;
   }
 
+  section#solutions {
+    background-color: white;
+    /*
+    padding: 4rem 10%;
+    */
+    color: black;
+    display: flex;
+    /*
+    align-items: left;
+    justify-content: left;
+    */
+    position: relative;
+  }
+  
+
+  section#solutions a {
+    text-decoration: none;
+    /*
+    display: inline-block;
+    
+    padding: 8px 16px;
+    */
+    background-color:#0c63ff ;
+    color:white;
+    height: 25%;
+    position: relative;
+  }
+  
+  section#solutions a:hover {
+    background-color: white;
+    color: #0c63ff;
+  }
+  
+  section#solutions a.previous {
+    background-color: #f1f1f1;
+    color: black;
+  }
+  
+  section#solutions a.next {
+    background-color: #0c63ff;
+    color: white;
+  }
+  
+  section#solutions a.round {
+    border-radius: 50%;
+  }
+
+  .nav-table-image img {
+    /*
+    float: left;
+    */
+    width:20px;
+    height:20px;
+  }
+
 
 
 
