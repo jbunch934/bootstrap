@@ -217,6 +217,7 @@ section#everyone .programs {
     justify-content: left;
     */
     position: relative;
+    display: none;
   }
   
 
