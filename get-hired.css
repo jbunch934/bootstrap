@@ -72,6 +72,57 @@ button.banner-button-right {
   text-align: center;
 }
 
+#process .card-body {
+  min-height: 200px;
+  border-top: 5px solid #87909E;
+}
+
+#process .card-body:hover {
+  border-top: 5px solid #0c63ff;
+}
+
+#process .card-body a {
+  display: none;
+}
+
+#process .card-body:hover a {
+  display: block;
+}
+
+#structured .structured-image {
+  background-image: url("https://www.lean-labs.com/hubfs/sr-assets/images/bg-sample.jpg");
+  background-position: center;
+  background-size: cover;
+  /* height: 100%; */
+}
+
+#structured .pills {
+  padding-right: 0;
+  background-color: #0c63ff;
+}
+
+#structured .tab-content {
+  height: 100%;
+}
+
+#structured .nav-link {
+  border-radius: 0;
+  border-top: 1px solid rgba(0, 0, 0, 0.2);
+  padding: 0 145px 0 40px;
+  text-align: start;
+}
+
+#structured .nav-link.active {
+  color: black;
+  background-color: white;
+  border-top: 0;
+}
+
+#structured .nav-link.inactive {
+  color: white;
+  background-color: #0c63ff;
+}
+
 #thousands > div.row {
   align-items: flex-end;
   justify-content: center;
@@ -92,3 +143,46 @@ h2.people-text {
   text-align: center;
 }
 
+section#banner2 {
+  background-color: rgba(52, 58, 64, 0.30);
+  padding: 4rem 10%;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#banner2 .banner {
+  width: 100%;
+  text-align: center;
+}
+
+.banner h3 {
+  text-align: center;
+}
+
+.banner p {
+  margin: 0;
+}
+
+#banner2 #carouselExampleIndicators {
+  width: 80%;
+  float: right;
+}
+
+button.banner-button-left {
+  color: black !important;
+}
+
+button.banner-button-right {
+  color: white;
+  border: 1px solid white;
+}
+
+#banner2 input {
+  text-align: start;
+}
+
+#banner2 button {
+  background-color: black;
+}
