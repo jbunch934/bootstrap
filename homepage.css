@@ -43,7 +43,7 @@
   .built{
     display: flex;
     justify-content: center;
-    width: ;
+
     left: 30%;
   }
   em{
@@ -103,7 +103,7 @@
     margin-top: 30px;
   }
   .pos-cen2 img {
-    position: ;
+
     margin-left: 50px;
    
    display: inline-block; 
