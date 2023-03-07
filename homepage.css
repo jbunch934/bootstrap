@@ -1,0 +1,142 @@
+
+  .padding{ 
+    padding: 90%;
+  }
+  .container {
+    position: relative;
+    width: 100%;
+    height: 0;
+    padding-bottom: 56.25%; /* 16:9 aspect ratio */
+  }
+  .container img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  .centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  .centered h2,
+  .centered p,
+  .centered a {
+    color: #fff;
+    text-shadow: 2px 2px #000;
+  }
+  .container-content{
+    text-align: center;
+  }
+  img.headphones{
+    float: right;
+    align-items: center;
+    margin-right: 200px;
+    padding: 2px;
+    max-width: 100%;
+    height: auto;
+  }
+  .built{
+    display: flex;
+    justify-content: center;
+    width: ;
+    left: 30%;
+  }
+  em{
+    text-decoration: grey;
+  }
+  .flexbox-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center !important;
+    padding: 0px 15px;
+  }
+  .flexbox-item{
+    width: 300px;
+    margin-top: 80px;
+    border-radius: 50px;
+  }
+  .flexbox-item-1{
+    min-height: 300px;
+    padding-right: 15px;
+  }
+  .flexbox-item-2{
+    min-height: 300px;
+    padding: 0px 15px;
+  }
+  .flexbox-item-3{
+    min-height: 300px;
+    padding: 0px 15px;
+  }
+  .navbar-nav{
+    display: in;
+  }
+  .row {
+    display: flex;
+    align-items: flex-end;
+  }
+  .pos-cen {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  .img-handshake {
+    flex: 0 0 600px;
+    margin-right: 20px;
+  }
+  .pos-cen,
+  .pos-cen2 {
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+  .pos-cen img,
+  .pos-cen2 img {
+    width: 600px;
+  }
+  .pos-cen2 {
+    margin-top: 30px;
+  }
+  .pos-cen2 img {
+    position: ;
+    margin-left: 50px;
+   
+   display: inline-block; 
+  }
+  .text1,
+  .text2 {
+    margin-top: 0px;
+    text-align: right;
+    width: 20%;
+    
+  }
+  .text2 {
+    text-align: right;
+    float: right;
+    margin: 5px;
+  }
+  .text1{
+    text-align: left;
+  }
+
+  .cent{
+    margin-top:440px;
+    margin-left: 25%;
+    position: relative;
+    text-align: center;
+    top:px;
+  width: 50%;
+  
+    
+
+  }
+  a.hire{
+    position: absolute;
+    top:200%;
+    LEFT:65%;
+}
